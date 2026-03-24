@@ -28,6 +28,7 @@ print('\tOlá {}! Você foi convidado pra a minha festa'.format(guests[3]))
 print('\tOlá {}! Você foi convidado pra a minha festa'.format(guests[4]))
 print('\tOlá {}! Você foi convidado pra a minha festa'.format(guests[5]))
 print('\tOlá {}! Você foi convidado pra a minha festa'.format(guests[6]))
+num = len(guests)
 
 print('\nA mesa de jantar não vai chegar a tempo!')
 removed_guest = guests.pop()
@@ -46,6 +47,8 @@ print('\tOlá {}! Você foi convidado pra a minha festa'.format(guests[0]))
 print('\tOlá {}! Você foi convidado pra a minha festa'.format(guests[1]))
 
 del vehicles[0]
-del vehicles[1]
+del vehicles[0]
 
 print(vehicles)
+
+print('Maior número de convidados: {}' .format(num))

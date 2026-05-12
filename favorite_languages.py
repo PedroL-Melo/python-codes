@@ -21,3 +21,6 @@ for name in favorite_languages.keys():
     if name in friends:
         language = favorite_languages[name].title()
         print("Ola "+ name.title() + ", eu vej que sua linguagem favrita é " + language.title() + "!")
+
+for name in sorted(favorite_languages.keys()):
+    print(name.title() + ", obrigado por participar da pesquisa.")
